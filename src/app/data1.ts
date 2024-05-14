@@ -1,12 +1,17 @@
-{
+export const sample1 = [
+  {
+    "title": "Interbay",
+    "location": ""
+  },
+  {
     "title": "Matanzas",
     "location": "",
     "address": {
-       "number": "6720",
-       "street": "S Lois Ave",
-       "city": "Tampa",
-       "state": "Fl",
-       "zip": "33616"
+      "number": "6720",
+      "street": "S Lois Ave",
+      "city": "Tampa",
+      "state": "Fl",
+      "zip": "33616"
     },
     "bedrooms": "4",
     "bathrooms": "2",
@@ -18,11 +23,11 @@
       "author": "Tara Zerbo",
       "organization": "BHGRE Gary Mann Realty"
     },
-    "contact":{
+    "contact": {
       "phone": "",
       "email": ""
     },
     "images": [
       ""
     ]
-}
+  }];
