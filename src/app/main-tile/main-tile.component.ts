@@ -1,4 +1,6 @@
 import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
+import { RealEstateProperty } from '../models/RealEstateProperty';
 
 @Component({
   selector: 'app-main-tile',
@@ -8,5 +10,15 @@ import { Component, Input } from '@angular/core';
   styleUrl: './main-tile.component.scss'
 })
 export class MainTileComponent {
-  @Input() data: any;
+  @Input() item: RealEstateProperty | undefined;
+
+  constructor(private router: Router) {
+  }
+
+  onClick() {
+    if (this.item) {
+      this.router.navigate(['/detail', this.item.id]);
+      // alert('clicked! ' + this.item?.id);
+    }
+  }
 }
