@@ -2,7 +2,7 @@ import { RealEstateProperty } from './models/RealEstateProperty';
 
 export const sample1: RealEstateProperty[] = [
   {
-    id: "a3fa7946-28ed-4584-bf32-34dffc70e3a4",
+    id: "mzd5ny",
     "title": "Interbay",
     "location": "",
     "address": {
@@ -31,7 +31,7 @@ export const sample1: RealEstateProperty[] = [
     ]
   },
   {
-    id: "b34c4046-eb0f-4347-af64-3790c9c5c4eb",
+    id: "o5ju16",
     "title": "Matanzas",
     "location": "",
     "address": {

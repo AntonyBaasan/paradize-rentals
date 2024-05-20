@@ -1,11 +1,11 @@
 import { Component, Input } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { RealEstateProperty } from '../models/RealEstateProperty';
 
 @Component({
   selector: 'app-main-tile',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './main-tile.component.html',
   styleUrl: './main-tile.component.scss'
 })

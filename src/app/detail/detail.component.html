@@ -1,1 +1,10 @@
 <p>detail works!</p>
+<div *ngIf="item == undefined; else elseBlock">
+  <div>Property Not Found. Go to <a routerLink="/">Home</a> page</div>
+</div>
+<ng-template #elseBlock>
+  <div>
+    <div>ID: {{ item?.id }}</div>
+    <div>Title: {{ item?.title }}</div>
+  </div>
+</ng-template>

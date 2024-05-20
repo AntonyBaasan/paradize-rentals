@@ -11,4 +11,5 @@ export class UtilsService {
     let secondPart = ("000" + secondPartNumb.toString(36)).slice(-3);
     return firstPart + secondPart;
   }
+
 }

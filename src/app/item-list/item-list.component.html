@@ -1,0 +1,7 @@
+<mat-grid-list cols="2" rowHeight="2:1">
+  @for (item of data; track $index) {
+    <mat-grid-tile>
+      <app-main-tile [item]="item"></app-main-tile>
+    </mat-grid-tile>
+  }
+</mat-grid-list>
