@@ -15,6 +15,6 @@ export class ItemListComponent {
   data: RealEstateProperty[];
 
   constructor(propertyService: PropertyService) {
-    this.data = propertyService.getAll();
+    this.data = [...propertyService.getAll(), ...propertyService.getAll()];
   }
 }
